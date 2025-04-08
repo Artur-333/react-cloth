@@ -1,0 +1,61 @@
+.sortPopup {
+  position: relative;
+  
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+  composes: button from global;
+}
+
+.button span:first-child {
+  font-weight: bold;
+  color: var(--dark-color);
+}
+
+.button span:last-child {
+  color: #fff;
+}
+
+.list {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 8px 0;
+}
+
+.item {
+  margin-bottom: 3px;
+  
+}
+
+.item:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.itemButton {
+  text-align: left;
+  width: 100%;
+  composes: button from global;
+  border-radius: 0;
+}
+
+.itemButton:hover {
+  background-color: var(--dark-color);
+  color: #fff;
+  transition: 0.5s;
+}
+
+.itemButtonActive {
+  composes: itemButton;
+  background-color: var(--dark-color);
+  color: #fff;
+}

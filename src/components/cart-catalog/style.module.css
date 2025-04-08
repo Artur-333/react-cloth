@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.clear {
+    background: transparent;
+    border: none;
+
+}
+
+.pay {
+    border-radius: 30px;
+    width: 211px;
+    height: 55px;
+}
+
+.goback {
+    border: 1px solid #d3d3d3;
+    border-radius: 30px;
+    width: 211px;
+    height: 55px;
+}

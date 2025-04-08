@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: "Abel";
+    --dark-color:#282828;
+    --lite-color:#cecece;
+}
+
+html {
+    height: 100%;
+
+}
+
+body {
+    height: 100%;
+    font-family: var(--font-family);
+    background-color: var(--lite-color);
+}

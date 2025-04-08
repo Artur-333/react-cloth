@@ -1,0 +1,20 @@
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+}
+
+input {
+    background: transparent;
+    border: none;
+}
+
+.button {
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+}
+
+.icon {
+    margin-right: 10px;
+}

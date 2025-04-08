@@ -1,0 +1,27 @@
+.header {
+    padding: 25px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 25px !important;
+}
+
+.spanLine {
+
+    width: 1px;
+    height: 16px;
+    background-color: var(--lite-color);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    composes: button from global;
+    background-color: var(--dark-color);
+    color: #fff;
+}

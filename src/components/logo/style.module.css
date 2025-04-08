@@ -1,0 +1,36 @@
+.logo {
+    display: inline-grid;
+    grid-template-areas:
+        "image boldText"
+        "image spanText";
+    column-gap: 10px;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.image {
+    grid-area: image;
+}
+
+.boldText {
+    grid-area: boldText;
+}
+
+.spanText {
+    grid-area: spanText;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #7b7b7b;
+}
+
+@media (max-width: 480px) {
+    .boldTex, .spanText{
+        display: block;
+    }
+}

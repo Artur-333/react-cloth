@@ -1,0 +1,39 @@
+.product{
+    font-family: var(--font-family);
+}
+
+.imgage{
+    margin-bottom: 15px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+.priceBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.price{
+    font-weight: 600;
+}
+
+.price span{
+    font-weight: 600;
+}
+
+
+
+.button:hover{
+    background-color: #cecece;
+    color: var(--daerk-color);
+    transition: 0.5s;
+}

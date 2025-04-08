@@ -1,0 +1,15 @@
+.repeat {
+    composes: button from global
+}
+
+.default {
+    background-color: var(--dark-color);
+    color: #fff;
+    composes: repeat;
+}
+
+.secondary {
+    background-color: #fff;
+    color: #000;
+    composes: repeat;
+}

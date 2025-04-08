@@ -1,0 +1,41 @@
+{
+  "name": "jhasg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "@fontsource/abel": "^5.1.1",
+    "@fontsource/inter": "^5.1.1",
+    "axios": "^1.8.4",
+    "json-server": "^1.0.0-beta.3",
+    "lodash.debounce": "^4.0.8",
+    "lucide-react": "^0.475.0",
+    "qs": "^6.14.0",
+    "react": "^19.0.0",
+    "react-content-loader": "^7.0.2",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.2.0",
+    "server": "^1.0.41",
+    "swr": "^2.3.3",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "vite": "^6.1.0"
+  }
+}
