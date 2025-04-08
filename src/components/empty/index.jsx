@@ -10,7 +10,6 @@ export const Empty = ({text, title, umgUrl}) => {
             <h2 className={styles.title}>{title}</h2>
             <p className={styles.text}>{text}</p>
             <img className= {styles.img} src= {umgUrl} alt="" />
-            <button className={styles.button}>Go back </button>
         </div>
     );
 };
